@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		362175622431DF4A00146EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362175612431DF4A00146EBD /* AppDelegate.swift */; };
 		362175642431DF4A00146EBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362175632431DF4A00146EBD /* SceneDelegate.swift */; };
-		362175662431DF4A00146EBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362175652431DF4A00146EBD /* ViewController.swift */; };
-		362175692431DF4A00146EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362175672431DF4A00146EBD /* Main.storyboard */; };
 		3621756C2431DF4A00146EBD /* Magic_8_Ball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3621756A2431DF4A00146EBD /* Magic_8_Ball.xcdatamodeld */; };
-		3621756E2431DF4C00146EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3621756D2431DF4C00146EBD /* Assets.xcassets */; };
 		362175712431DF4C00146EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3621756F2431DF4C00146EBD /* LaunchScreen.storyboard */; };
+		362175792431DF7C00146EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362175782431DF7C00146EBD /* Assets.xcassets */; };
+		3621757B2431DF8A00146EBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621757A2431DF8A00146EBD /* ViewController.swift */; };
+		3621757D2431DF9900146EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3621757C2431DF9900146EBD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3621755E2431DF4A00146EBD /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		362175612431DF4A00146EBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		362175632431DF4A00146EBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		362175652431DF4A00146EBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		362175682431DF4A00146EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3621756B2431DF4A00146EBD /* Magic_8_Ball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Magic_8_Ball.xcdatamodel; sourceTree = "<group>"; };
-		3621756D2431DF4C00146EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		362175702431DF4C00146EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		362175722431DF4C00146EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362175782431DF7C00146EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3621757A2431DF8A00146EBD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3621757C2431DF9900146EBD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			children = (
 				362175612431DF4A00146EBD /* AppDelegate.swift */,
 				362175632431DF4A00146EBD /* SceneDelegate.swift */,
-				362175652431DF4A00146EBD /* ViewController.swift */,
-				362175672431DF4A00146EBD /* Main.storyboard */,
-				3621756D2431DF4C00146EBD /* Assets.xcassets */,
+				3621757A2431DF8A00146EBD /* ViewController.swift */,
+				3621757C2431DF9900146EBD /* Main.storyboard */,
+				362175782431DF7C00146EBD /* Assets.xcassets */,
 				3621756F2431DF4C00146EBD /* LaunchScreen.storyboard */,
 				362175722431DF4C00146EBD /* Info.plist */,
 				3621756A2431DF4A00146EBD /* Magic_8_Ball.xcdatamodeld */,
@@ -128,9 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3621757D2431DF9900146EBD /* Main.storyboard in Resources */,
 				362175712431DF4C00146EBD /* LaunchScreen.storyboard in Resources */,
-				3621756E2431DF4C00146EBD /* Assets.xcassets in Resources */,
-				362175692431DF4A00146EBD /* Main.storyboard in Resources */,
+				362175792431DF7C00146EBD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362175662431DF4A00146EBD /* ViewController.swift in Sources */,
 				362175622431DF4A00146EBD /* AppDelegate.swift in Sources */,
 				362175642431DF4A00146EBD /* SceneDelegate.swift in Sources */,
+				3621757B2431DF8A00146EBD /* ViewController.swift in Sources */,
 				3621756C2431DF4A00146EBD /* Magic_8_Ball.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		362175672431DF4A00146EBD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				362175682431DF4A00146EBD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3621756F2431DF4C00146EBD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +281,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.01;
 				DEVELOPMENT_TEAM = 487824BLHE;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sitemapstudios.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -307,12 +301,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.01;
 				DEVELOPMENT_TEAM = 487824BLHE;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sitemapstudios.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
